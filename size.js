@@ -1,8 +1,8 @@
 var size = function() {
-		var windowWidth = window.outerWidth;
-		var windowHeight = window.outerHeight;
-		document.getElementById('width').innerHTML = windowWidth + ' пк';
-		document.getElementById('height').innerHTML = windowHeight + ' пк';		
+	var documentWidth = window.innerWidth;
+	var documentHeight = window.innerHeight;
+	document.getElementById('width').innerHTML = documentWidth + 'пк';
+	document.getElementById('height').innerHTML = documentHeight + 'пк';
 };
 
 window.onload = size;
